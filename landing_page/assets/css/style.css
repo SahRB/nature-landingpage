@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@100;200;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    z-index: 999;
+    margin: auto 12%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar li {
+    margin-left: 60px;
+}
+.navbar li:first-child {
+    margin-left: 0px;
+  
+}
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #272553;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #E6B18F;
+}
+
+
+  body {
+    overflow: hidden;
+    height: 100vh;
+    background-color: white;
+    color: #272553;
+  }
+  
+  .presentation {
+    margin: 10% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .presentation__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+  }
+  
+  .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    position: relative;
+  }
+  
+  .title::before {
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 5vh;
+    background: linear-gradient(90deg, #E6B18F, #D9806A);
+    bottom: -50px;
+    border-radius: 5px;
+  }
+  
+  .text {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 1vw;
+  }
+  
+  .button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #E6B18F, #D9806A);
+    width: 40%;
+    height: auto;
+    max-width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size:  1vw;
+    font-weight: 600;
+    padding: 0.5vw 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  
